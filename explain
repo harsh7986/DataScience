@@ -1,0 +1,14 @@
+Loads the data from a CSV file.
+
+Fixes date formats to enable proper time-based operations.
+
+Removes invalid ages (e.g., negative or unrealistic ages over 120).
+
+Converts the 'No_show' column into binary format (0 = showed up, 1 = no-show) for easier analysis.
+
+Deletes rows with missing values to ensure data quality.
+
+Adds a new 'WaitingDays' column, which calculates how long each patient waited for their appointment.
+
+Saves the cleaned dataset to a new CSV file.
+
